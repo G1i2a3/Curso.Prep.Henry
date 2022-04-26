@@ -7,16 +7,16 @@ const nuevaString = "Hola";
 const nuevoNum = 18;
 
 // Crea una variable booleana:
-const nuevoBool = null;
+const nuevoBool = (var x = true);
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 5;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 40 ;
+const nuevaMultiplicacion = 10 * 4 === 40 ;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === null;
+const nuevoModulo = 21 % 5 === 1.05;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -50,20 +50,20 @@ function resta(x, y) {
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  return x *  y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  return x / y;
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+ 
 }
 
 function tienenMismaLongitud(str1, str2) {
